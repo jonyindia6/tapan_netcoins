@@ -1,0 +1,101 @@
+@import "./file.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+body {
+    font-family: "Inter", serif;
+    background-color: #07072E;
+    /*font-size: 14px;*/
+    color: #FFF;
+
+    
+svg{
+    display: block;
+    vertical-align: middle;
+}
+
+.bg_img {
+    height: 100vh;
+    width: 100%;
+    background-position: center ;
+    background-size: cover;
+}
+
+.btn {
+    /*font-size: 14px;*/
+}
+
+.btn-primary-2 {
+    color: #3D65F6;
+    background-color: rgba(133,91,251,.16);
+    border: 0px;
+}
+
+.btn-primary-2:hover {
+    color: #3D65F6;
+    background-color: rgba(133,91,251,.32);
+    border: 0px;
+}
+
+.btn-primary-3 {
+    color: #FFF;
+    background-color: #7132f5;
+    border: 0px;
+}
+
+.btn-primary-3:hover {
+    background-color: #512b2b;
+    border: 0px;
+}
+
+.text-primary-2 {
+    color: #7793F9;
+}
+.bg-secondar-2 {
+    background-color: #202043;
+}
+
+/*.login_bg_img {
+    height: 100vh;
+    width: 100%;
+    background-position: center ;
+    background-size: cover;
+    background-image: url('./img/bg.svg');
+    @media(max-width: 768px) {
+        display: none;
+    }
+}*/
+
+
+/*.login_form_bg_img {
+    background-position: center ;
+    background-size: cover;
+    background-image: none;
+    @media(max-width: 768px) {
+        width: 100%;
+        background-image: url('./img/bg.svg');
+    }
+}*/
+
+.form-control{
+    border:2px solid #393958;
+    background-color: #393958;
+    /*font-size:15px;*/
+    color: rgb(229, 229, 234);
+}
+
+
+.form-control:focus {
+    color: rgb(229, 229, 234);
+    background-color: #393958;
+    border:2px solid;
+    border-color: #393958;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(13,110,253,.25)
+}
+
+.form-control::placeholder {
+    color: #8590a6 !important;
+}
+
